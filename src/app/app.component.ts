@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
 
       <header class="brand-name">
 
-      <a [routerLink]="['/']">
+      <a [routerLink]="['./']">
         <img class="brand-logo" src="images/logo.svg" alt="logo" aria-hidden="true"/>
       </a>
       </header>
@@ -28,3 +28,4 @@ import { RouterModule } from '@angular/router';
 export class AppComponent {
   title = 'homes';
 }
+
